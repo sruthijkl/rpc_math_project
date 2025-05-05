@@ -1,0 +1,25 @@
+CS 5523 RPC Project Report
+--------------------------
+
+Team: Nagasruthi Uppalapati, [Teammate Name]
+Project: Math Client/Server using XML-RPC
+
+Design:
+- XML-RPC server handles math operations: add, subtract, min, max.
+- Each method is thread-safe using threading.Lock.
+- Server maintains call counters for each operation.
+
+Testing:
+- Each client sends 1000 requests randomly.
+- `run_clients.py` runs 2 clients concurrently.
+- Server prints final counters showing concurrent access handled correctly.
+
+Result:
+- Final counters reflect total requests.
+- Demonstrated correct RPC communication and multithreaded handling.
+
+Screenshots:
+[Add terminal outputs or sample results here]
+
+Conclusion:
+- Successfully implemented and tested a distributed RPC math server with concurrent clients.
