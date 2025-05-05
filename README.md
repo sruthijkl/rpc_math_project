@@ -1,0 +1,1 @@
+The objective of this project is to design and implement a math service using Remote Procedure Call(RPC) , enabling a client to perform mathematical operations remotely on a server,with support for concurrent client access and synchronized shared state.
